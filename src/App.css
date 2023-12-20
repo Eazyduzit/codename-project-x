@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: skyblue;
+  background: rgb(0, 0, 0);
 }
 
 .App {
@@ -17,7 +17,11 @@ body {
   align-items: center;
 }
 
+h1 {
+  color: skyblue;
+  font-style: italic;
+}
 h2 {
-  color: white;
+  color: whitesmoke;
   font-style: italic;
 }
