@@ -1,0 +1,11 @@
+.avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+/* width: {user.imageSize},
+height: user.imageSize,
+borderRadius: 100,
+objectFit: "cover", */
