@@ -1,35 +1,27 @@
 import Avatar from "../avatar/Avatar"
 import "./Parallax.css"
 
-interface ImageTypes {
+interface ParallaxProps {
   imgSrc1: string
   imgSrc2: string
   description1: string
   description2: string
+  title: string
 }
 
-const images: ImageTypes = {
-  imgSrc1: "./images/mountain1.jpg",
-  imgSrc2: "./images/trees1.png",
-  description1: "mountain range",
-  description2: "pine trees",
-}
-
-const Parallax: React.FC = () => {
+const Parallax: React.FC<ParallaxProps> = ({
+  imgSrc1,
+  imgSrc2,
+  description1,
+  description2,
+  title,
+}) => {
   return (
     <div className="parallaxWrapper">
       <header>
-        <img
-          className="parallaxBackground"
-          src={images.imgSrc1}
-          alt={`photo of ${images.description1}`}
-        />
-        <img
-          className="parallaxForeground"
-          src={images.imgSrc2}
-          alt={`photo of ${images.description2}`}
-        />
-        <h1 className="parallaxTitle">Velkommen!</h1>
+        <img className="parallaxBackground" src={imgSrc1} alt={`photo of ${description1}`} />
+        <img className="parallaxForeground" src={imgSrc2} alt={`photo of ${description2}`} />
+        <h1 className="parallaxTitle">{title}</h1>
       </header>
       <Avatar name="Marius" imageSrc="/images/image001.png" />
     </div>
