@@ -1,11 +1,16 @@
 import "./Avatar.css"
 
-const user = {
+interface AvatarTypes {
+  name: string
+  imageSrc: string
+}
+
+const user: AvatarTypes = {
   name: "Marius",
   imageSrc: "/images/image001.png",
 }
 
-const Avatar = () => {
+const Avatar: React.FC = () => {
   return (
     <div className="avatarWrapper">
       <img className="avatarImage" src={user.imageSrc} alt={`photo of ${user.name}`} />

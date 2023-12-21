@@ -1,14 +1,14 @@
 import Avatar from "../avatar/Avatar"
 import "./Parallax.css"
 
-interface Images {
+interface ImageTypes {
   imgSrc1: string
   imgSrc2: string
   description1: string
   description2: string
 }
 
-const images: Images = {
+const images: ImageTypes = {
   imgSrc1: "./images/mountain1.jpg",
   imgSrc2: "./images/trees1.png",
   description1: "mountain range",
@@ -29,7 +29,7 @@ const Parallax: React.FC = () => {
           src={images.imgSrc2}
           alt={`photo of ${images.description2}`}
         />
-        <h1 className="parallaxTitle">Welcome!</h1>
+        <h1 className="parallaxTitle">Velkommen!</h1>
       </header>
       <Avatar />
     </div>
