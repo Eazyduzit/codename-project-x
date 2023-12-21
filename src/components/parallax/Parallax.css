@@ -1,4 +1,4 @@
-.ParallaxWrapper {
+.parallaxWrapper {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -15,16 +15,16 @@ header {
   z-index: -1;
 }
 
-.background {
+.parallaxBackground {
   transform: translateZ(-10px) scale(2);
 }
 
-.foreground {
+.parallaxPoreground {
   transform: translateZ(-5px) scale(1.5);
 }
 
-.background,
-.foreground {
+.parallaxBackground,
+.parallaxForeground {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -32,7 +32,7 @@ header {
   z-index: -1;
 }
 
-.title {
+.parallaxTitle {
   font-size: 7rem;
   font-style: italic;
   color: whitesmoke;
