@@ -1,11 +1,25 @@
-.avatar {
-  width: 180px;
-  height: 180px;
+.avatarWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatarImage {
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   object-fit: cover;
 }
 
-/* width: {user.imageSize},
-height: user.imageSize,
-borderRadius: 100,
-objectFit: "cover", */
+.avatarTitle {
+  color: skyblue;
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.avatarParagraph {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 2rem;
+}

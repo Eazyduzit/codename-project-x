@@ -6,6 +6,12 @@ const user = {
 }
 
 const Avatar = () => {
-  return <img className="avatar" src={user.imageSrc} alt={`photo of ${user.name}`} />
+  return (
+    <div className="avatarWrapper">
+      <img className="avatarImage" src={user.imageSrc} alt={`photo of ${user.name}`} />
+      <p className="avatarTitle">Hei, mitt navn er Marius!</p>
+      <p className="avatarParagraph">Jeg er en React og Typescript utvikler, i frontend..</p>
+    </div>
+  )
 }
 export default Avatar

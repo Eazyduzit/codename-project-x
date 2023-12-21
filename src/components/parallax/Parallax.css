@@ -1,8 +1,4 @@
-body {
-  margin: 0;
-}
-
-.wrapper {
+.ParallaxWrapper {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
@@ -38,13 +34,13 @@ header {
 
 .title {
   font-size: 7rem;
+  font-style: italic;
   color: white;
   text-shadow: 0 0 5px black;
 }
 
 section {
-  font-size: 2rem;
-  padding: 2rem;
+  height: 100vh;
+  width: 100vw;
   background-color: #333;
-  color: white;
 }
