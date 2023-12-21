@@ -17,11 +17,11 @@ const Parallax: React.FC<ParallaxProps> = ({
   title,
 }) => {
   return (
-    <div className="parallaxWrapper">
+    <div className="parallax-wrapper">
       <header>
-        <img className="parallaxBackground" src={imgSrc1} alt={`photo of ${description1}`} />
-        <img className="parallaxForeground" src={imgSrc2} alt={`photo of ${description2}`} />
-        <h1 className="parallaxTitle">{title}</h1>
+        <img className="parallax-background" src={imgSrc1} alt={`photo of ${description1}`} />
+        <img className="parallax-foreground" src={imgSrc2} alt={`photo of ${description2}`} />
+        <h1 className="parallax-title">{title}</h1>
       </header>
       <Avatar name="Marius" imageSrc="/images/image001.png" />
     </div>
