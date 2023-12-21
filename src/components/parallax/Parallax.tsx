@@ -31,7 +31,7 @@ const Parallax: React.FC = () => {
         />
         <h1 className="parallaxTitle">Velkommen!</h1>
       </header>
-      <Avatar />
+      <Avatar name="Marius" imageSrc="/images/image001.png" />
     </div>
   )
 }

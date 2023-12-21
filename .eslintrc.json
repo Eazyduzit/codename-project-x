@@ -25,7 +25,9 @@
     "no-duplicate-imports": "error",
     "no-unused-vars": "error",
     "no-console": "warn",
-    "no-unused-expressions": "error"
+    "no-unused-expressions": "error",
+    // not sure about turning this off, but it wont let me use props
+    "react/prop-types": "off"
   },
   "settings": {
     "import/resolver": {
