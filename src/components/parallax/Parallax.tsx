@@ -2,8 +2,8 @@ import Avatar from "../avatar/Avatar"
 import "./Parallax.css"
 
 const images = {
-  imgSrc1: "./mountain1.jpg",
-  imgSrc2: "./trees1.png",
+  imgSrc1: "./images/mountain1.jpg",
+  imgSrc2: "./images/trees1.png",
   description1: "mountain range",
   description2: "pine trees",
 }
@@ -16,9 +16,7 @@ const Parallax = () => {
         <img className="foreground" src={images.imgSrc2} alt={`photo of ${images.description2}`} />
         <h1 className="title">Welcome!</h1>
       </header>
-      <section>
-        <Avatar />
-      </section>
+      <Avatar />
     </div>
   )
 }

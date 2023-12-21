@@ -2,7 +2,7 @@ import "./Avatar.css"
 
 const user = {
   name: "Marius",
-  imageSrc: "/image001.png",
+  imageSrc: "/images/image001.png",
 }
 
 const Avatar = () => {
