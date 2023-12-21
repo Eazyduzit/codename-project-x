@@ -4,9 +4,9 @@ const Parallax = () => {
   return (
     <div className="wrapper">
       <header>
-        <img src="mountain1.jpg" alt="" />
-        <img src="trees.png" alt="" />
-        <h1>Welcome!</h1>
+        <img className="background" src="mountain1.jpg" alt="" />
+        <img className="foreground" src="trees1.png" alt="" />
+        <h1 className="title">Welcome!</h1>
       </header>
       <section>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio aliquam consequuntur
