@@ -5,6 +5,8 @@ import Stacking from "./components/stacking/Stacking"
 function App() {
   return (
     <div className="App">
+      <header></header>
+
       <div className="parallax-wrapper">
         <Parallax
           imgSrc1="./images/mountain1.jpg"
@@ -15,6 +17,8 @@ function App() {
         />
         <Stacking text="Content under construction.." />
       </div>
+
+      <footer></footer>
     </div>
   )
 }
