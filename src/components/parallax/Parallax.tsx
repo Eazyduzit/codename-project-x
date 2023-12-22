@@ -1,4 +1,3 @@
-import Avatar from "../avatar/Avatar"
 import "./Parallax.css"
 
 interface ParallaxProps {
@@ -17,13 +16,10 @@ const Parallax: React.FC<ParallaxProps> = ({
   title,
 }) => {
   return (
-    <div className="parallax-wrapper">
-      <header>
-        <img className="parallax-background" src={imgSrc1} alt={`photo of ${description1}`} />
-        <img className="parallax-foreground" src={imgSrc2} alt={`photo of ${description2}`} />
-        <h1 className="parallax-title">{title}</h1>
-      </header>
-      <Avatar name="Marius" imageSrc="/images/image001.png" />
+    <div className="parallax-header">
+      <img className="parallax-background" src={imgSrc1} alt={`photo of ${description1}`} />
+      <img className="parallax-foreground" src={imgSrc2} alt={`photo of ${description2}`} />
+      <h1 className="parallax-title">{title}</h1>
     </div>
   )
 }

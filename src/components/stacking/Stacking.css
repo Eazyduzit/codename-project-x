@@ -1,0 +1,11 @@
+.stacking-card {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(20, 50, 100);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
