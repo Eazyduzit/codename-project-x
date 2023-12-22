@@ -1,6 +1,5 @@
 import "./App.css"
 import Parallax from "./components/parallax/Parallax"
-import Stacking from "./components/stacking/Stacking"
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
         description2="pine trees"
         title="Velkommen!"
       />
-      <Stacking />
     </div>
   )
 }

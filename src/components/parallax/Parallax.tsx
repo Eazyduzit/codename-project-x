@@ -1,4 +1,5 @@
 import Avatar from "../avatar/Avatar"
+import Stacking from "../stacking/Stacking"
 import "./Parallax.css"
 
 interface ParallaxProps {
@@ -24,6 +25,7 @@ const Parallax: React.FC<ParallaxProps> = ({
         <h1 className="parallax-title">{title}</h1>
       </header>
       <Avatar name="Marius" imageSrc="/images/image001.png" />
+      <Stacking />
     </div>
   )
 }
