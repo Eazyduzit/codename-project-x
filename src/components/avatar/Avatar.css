@@ -1,11 +1,16 @@
 .avatar-wrapper {
   height: 100vh;
   width: 100vw;
-  background-color: #333;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background: linear-gradient(
+    150deg,
+    rgba(238, 253, 255, 1) 0%,
+    rgba(51, 51, 51, 1) 24%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .avatar-image {
