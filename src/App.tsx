@@ -13,7 +13,7 @@ function App() {
           description2="pine trees"
           title="Velkommen!"
         />
-        <Stacking />
+        <Stacking text="Content under construction.." />
       </div>
     </div>
   )
