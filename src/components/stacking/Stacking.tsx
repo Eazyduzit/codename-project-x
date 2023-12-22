@@ -8,7 +8,11 @@ interface StackingProps {
 const Stacking: React.FC<StackingProps> = ({ text }) => {
   return (
     <>
-      <Avatar name="Marius" imageSrc="/images/image001.png" />
+      <Avatar
+        name="Marius"
+        imageSrc="/images/image001.png"
+        text="Jeg er en React og Typescript utvikler, i frontend.."
+      />
       <div className="stacking-card">
         <p className="stacking-paragraph">{text}</p>
       </div>
