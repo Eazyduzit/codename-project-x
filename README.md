@@ -1,5 +1,9 @@
 # Project under construction 👷‍♂️ come back soon!
 
+Application will be deployed to https://app.netlify.com/teams/eazyduzit/overview when ready..
+
+## Created with React and Typescript. Including ESlint, Prettier, Jest and GitHub CI/CD.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
